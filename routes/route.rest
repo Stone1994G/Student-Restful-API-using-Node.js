@@ -1,0 +1,29 @@
+GET http://localhost:4500/students/
+
+###
+
+GET http://localhost:4500/students/5e2b56c085fe2657685629d5
+
+###
+
+POST http://localhost:4500/students
+Content-Type: application/json
+
+{
+  "name": "Pete",
+  "DOE": "6/20/1994",
+  "Year": "Senior",
+  "Major": "Computer Science",
+  "GPA":  "3.3"
+}
+
+###
+
+DELETE http://localhost:4500/students/5e2886b6dd81e7516c7f92f3
+
+###
+
+PATCH http://localhost:4500/students/5e289bde7d18af576c8b18ab
+Content-Type: application/json
+
+
